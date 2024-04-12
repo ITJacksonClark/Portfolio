@@ -31,7 +31,7 @@ void init(void)
 {
 	//Initialize the shader program id with the created shaderProgram
 	// Initialize the shader program id with the created shaderProgram
-	programID = loadShader("C:/Users/jc000/Desktop/IT 356/it356 wo6/Code Folders/lec07_code/src/shader/vshader_lec07_01.glsl", "C:/Users/jc000/Desktop/IT 356/it356 wo6/Code Folders/lec07_code/src/shader/fshader_lec07_01.glsl");
+	programID = loadShader("../../src/shader/vshader_lec07_01.glsl", "../../src/shader/fshader_lec07_01.glsl");
 
 
 	//Set up vertex data 
