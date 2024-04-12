@@ -47,7 +47,7 @@ int main(int argc, char** argv)
 	glutInitWindowSize(1200, 600);
 
 	//Creates window
-	static int window = glutCreateWindow("Welcome, Exp02 Lec04!");
+	static int window = glutCreateWindow("Welcome, Lec04 Ex2!");
 
 	//Display callback function, etc. myRender()
 	glutDisplayFunc(myRender);
