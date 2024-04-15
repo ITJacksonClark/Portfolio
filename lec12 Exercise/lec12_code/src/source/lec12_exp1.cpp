@@ -48,8 +48,8 @@ void init(void)
 
 
 	//Return shaderProgram, which is used to set the shader program's ID
-	shaderProgram = loadShader("C:/Users/jc000/Desktop/IT 356/it356 wo12/Code Folders/lec12_code/src/shader/texture1.vert",
-		"C:/Users/jc000/Desktop/IT 356/it356 wo12/Code Folders/lec12_code/src/shader/texture1.frag");
+	shaderProgram = loadShader("../../src/shader/texture1.vert",
+		"../../src/shader/texture1.frag");
 
 
 	//Set up vertex data (and buffer(s)) and configure vertex attributes
@@ -105,7 +105,7 @@ void init(void)
 	//Tell stb_image.h to flip loaded textures on the y-axis.
 	stbi_set_flip_vertically_on_load(true);
 
-	unsigned char* data = stbi_load("C:/Users/jc000/Desktop/IT 356/it356 wo12/Code Folders/lec12_code/src/resources/textures/wall.jpg",
+	unsigned char* data = stbi_load("../../src/resources/textures/wall.jpg",
 		&width, &height, &nrChannels, 0);
 
 	if (data)
@@ -135,7 +135,7 @@ void init(void)
 
 
 	//Load image, create texture, and generate mipmaps
-	data = stbi_load("C:/Users/jc000/Desktop/IT 356/it356 wo12/Code Folders/lec12_code/src/resources/textures/awesomeface.png", &width, &height, &nrChannels, 0);
+	data = stbi_load("../../src/resources/textures/awesomeface.png", &width, &height, &nrChannels, 0);
 
 	if (data)
 	{
